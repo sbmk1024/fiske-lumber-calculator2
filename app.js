@@ -38,20 +38,21 @@ const LumberCalculator = () => {
     }
   }, []);
   
+  // 2026 Hemlock Rough Cut Price List
   const hemlockData = [
-    { size: '1×4', width: 1, height: 4, length8: 2.15, length10: 2.65, length12: 3.20, length14: 3.70, length16: 4.25 },
-    { size: '1×6', width: 1, height: 6, length8: 3.20, length10: 4.00, length12: 4.80, length14: 5.60, length16: 6.40 },
-    { size: '1×8', width: 1, height: 8, length8: 4.25, length10: 5.35, length12: 6.40, length14: 7.45, length16: 8.55 },
-    { size: '1×10', width: 1, height: 10, length8: 6.00, length10: 7.50, length12: 9.00, length14: 10.50, length16: 12.00 },
-    { size: '2×4', width: 2, height: 4, length8: 4.25, length10: 5.35, length12: 6.40, length14: 7.45, length16: 8.55 },
-    { size: '2×6', width: 2, height: 6, length8: 6.40, length10: 8.00, length12: 9.60, length14: 11.20, length16: 12.80 },
-    { size: '2×8', width: 2, height: 8, length8: 8.55, length10: 10.65, length12: 12.80, length14: 14.95, length16: 17.00 },
-    { size: '2×10', width: 2, height: 10, length8: 12.00, length10: 15.00, length12: 18.00, length14: 21.00, length16: 24.00 },
-    { size: '2×12', width: 2, height: 12, length8: 14.40, length10: 18.00, length12: 21.60, length14: 25.20, length16: 28.80 },
-    { size: '4×4', width: 4, height: 4, length8: 8.55, length10: 10.65, length12: 12.80, length14: 14.95, length16: 17.00 },
-    { size: '4×6', width: 4, height: 6, length8: 12.80, length10: 16.00, length12: 19.20, length14: 22.40, length16: 25.60 },
-    { size: '6×6', width: 6, height: 6, length8: 19.20, length10: 24.00, length12: 28.80, length14: 33.60, length16: 38.40 },
-    { size: '8×8', width: 8, height: 8, length8: 34.15, length10: 42.65, length12: 51.20, length14: 59.75, length16: 68.25 },
+    { size: '1×4', width: 1, height: 4, length8: 2.37, length10: 2.92, length12: 3.52, length14: 4.07, length16: 4.68 },
+    { size: '1×6', width: 1, height: 6, length8: 3.52, length10: 4.40, length12: 5.28, length14: 6.16, length16: 7.04 },
+    { size: '1×8', width: 1, height: 8, length8: 4.68, length10: 5.89, length12: 7.04, length14: 8.20, length16: 9.41 },
+    { size: '1×10', width: 1, height: 10, length8: 6.60, length10: 8.25, length12: 9.90, length14: 11.55, length16: 13.20 },
+    { size: '2×4', width: 2, height: 4, length8: 4.68, length10: 5.89, length12: 7.04, length14: 8.20, length16: 9.41 },
+    { size: '2×6', width: 2, height: 6, length8: 7.04, length10: 8.80, length12: 10.56, length14: 12.32, length16: 14.08 },
+    { size: '2×8', width: 2, height: 8, length8: 9.41, length10: 11.72, length12: 14.08, length14: 16.45, length16: 18.70 },
+    { size: '2×10', width: 2, height: 10, length8: 13.20, length10: 16.50, length12: 19.80, length14: 23.10, length16: 26.40 },
+    { size: '2×12', width: 2, height: 12, length8: 15.84, length10: 19.80, length12: 23.76, length14: 27.72, length16: 31.68 },
+    { size: '4×4', width: 4, height: 4, length8: 9.41, length10: 11.72, length12: 14.08, length14: 16.45, length16: 18.70 },
+    { size: '4×6', width: 4, height: 6, length8: 14.08, length10: 17.60, length12: 21.12, length14: 24.64, length16: 28.16 },
+    { size: '6×6', width: 6, height: 6, length8: 21.12, length10: 26.40, length12: 31.68, length14: 36.96, length16: 42.24 },
+    { size: '8×8', width: 8, height: 8, length8: 37.57, length10: 46.92, length12: 56.32, length14: 65.73, length16: 75.08 },
   ];
   
   // 2026 Pine Rough Cut Price List
